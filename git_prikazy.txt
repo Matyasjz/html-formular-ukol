@@ -23,17 +23,3 @@ git push -u origin main
 
 7. Kontrola:
 git status
-
-VYSVĚTLENÍ:
-- git init vytvoří lokální Git repozitář (složku .git).
-- git add připraví soubory k uložení do commitu.
-- git commit zaznamená změny v historii projektu.
-- git branch -M main pojmenuje hlavní větev.
-- git remote add origin nastaví adresu vzdáleného repozitáře.
-- git push -u origin main odešle lokální commity na GitHub a nastaví upstream.
-
-POZNÁMKA: Tyto příkazy představují postup pro odevzdání úkolu. Soubory byly do GitHub repozitáře nahrány přes GitHub API. Pokud chceš postup vyzkoušet v terminálu na již naplněném vzdáleném repozitáři, nejjednodušší je nejdřív použít:
-git clone https://github.com/Matyasjz/html-formular-ukol.git
-
-Při vytváření vlastních commitů musí být v Gitu nastavené jméno a e-mail.
-Samotná metoda POST nezaručuje šifrování dat; pro bezpečný přenos je potřeba HTTPS.
