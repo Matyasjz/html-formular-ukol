@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrační formulář</title>
+</head>
+<body>
+    <h1>Registrační formulář</h1>
+
+    <form action="zpracovani.php" method="POST">
+        <label for="jmeno">Jméno:</label>
+        <input type="text" id="jmeno" name="jmeno" required>
+        <br><br>
+
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" required>
+        <br><br>
+
+        <label for="vek">Věk:</label>
+        <input type="number" id="vek" name="vek" min="1" max="120" required>
+        <br><br>
+
+        <label for="datum">Datum narození:</label>
+        <input type="date" id="datum" name="datum" required>
+        <br><br>
+
+        <input type="checkbox" id="souhlas" name="souhlas" value="ano" required>
+        <label for="souhlas">Souhlasím se zpracováním osobních údajů.</label>
+        <br><br>
+
+        <input type="submit" value="Odeslat formulář">
+    </form>
+</body>
+</html>
